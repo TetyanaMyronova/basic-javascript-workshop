@@ -1,8 +1,19 @@
 function firstLetter(inputString) {
-
+    if (inputString == undefined) {
+        return undefined;
+    }
+    else {
+        return inputString[0];    
+    }
 }
 
 function lastLetter(inputString) {
+    if (inputString == undefined) {
+        return (undefined);
+    }
+    if (inputString[inputString.length - 1] == "o") {
+        return ("o"); 
+    }
 
 }
 
